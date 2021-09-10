@@ -1,16 +1,12 @@
 <script setup>
 import MatchCard from "./MatchCard.vue";
+
+const matches = [true, true, false, true, false, false, false, false, false, false]
 </script>
 
 <template>
   <div class="carousel">
-    <MatchCard v-bind:result="true" />
-    <MatchCard v-bind:result="true" />
-    <MatchCard v-bind:result="false" />
-    <MatchCard v-bind:result="true" />
-    <MatchCard v-bind:result="false" />
-    <MatchCard v-bind:result="false" />
-    <MatchCard v-bind:result="false" />
+    <MatchCard v-for="match in matches" :key="match" v-bind:result=match />
   </div>
 </template>
 
