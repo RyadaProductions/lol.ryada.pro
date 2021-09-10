@@ -48,8 +48,6 @@ const rank = 'Gold';
   justify-content: space-evenly;
   width: 100%;
   padding-bottom: 25px;
-  /* Remove background color after finishing design */
-  background-color: bisque;
 }
 
 .profile {

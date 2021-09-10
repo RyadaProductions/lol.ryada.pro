@@ -18,6 +18,5 @@ const matches = [true, true, false, true, false, false, false, false, false, fal
     width: 100%;
     height: 200px;
     overflow: auto;
-    background-color: darkgrey;
 }
 </style>
